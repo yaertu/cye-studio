@@ -1,41 +1,45 @@
-# CYE Studio 4.3.0
+# CYE Studio 4.5.0
 
-Developer: **yaaertu codeR**
+Geliştirici: **yaaertu codeR**
 
-CYE Studio is a Windows x64 desktop visual effects app. It changes the Windows system selection color for apps that respect system colors, adds a desktop selection glow, cursor glow, and a premium taskbar visualizer.
+CYE Studio, Windows x64 için yerel ve çevrimdışı çalışan masaüstü efekt uygulamasıdır. Sistem rengini kullanan uygulamalarda seçim rengini değiştirir; masaüstü seçim ışığı, imleç parıltısı, görev çubuğu sahneleri ve Dosya Gezgini arka aurası ekler.
 
-## What's included
+[Türkçe tanıtım videosunu izle](media/cye-turkce-tanitim.mp4)
 
-- RGB selection color presets and sliders
-- Five visually different premium taskbar modes: Aurora Glass, Crystal Spectrum, Inferno EQ, Cyber Scan, and Meteor Storm
-- Music-level reaction through local Windows output metering
-- Tray-first always-on behavior: pressing X hides the window, the app keeps running
-- Desktop drag selection overlay and cursor click pulse
-- Embedded logo, icon, and **yaaertu codeR** signature
+![CYE Studio 4.5 Türkçe tanıtım](media/cye-turkce-tanitim.png)
 
-## Install
+## Özellikler
 
-1. Download `CYE Studio.exe` from the release.
-2. Run it on Windows x64.
-3. Double-click the tray icon or the desktop shortcut to open it again.
-4. Use **Kapat ve geri yükle** inside the app when you want to fully exit and restore Windows colors.
+- RGB seçim rengi, hazır renkler ve hassas kanal ayarları
+- Birbirinden farklı 10 görev çubuğu sahnesi
+- Orbit Frame, Prism Halo ve Ember Orbit klasör auraları
+- Parlaklık, hareket hızı ve detay yoğunluğu kontrolleri
+- Yerel Windows ses seviyesine tepki, sistem tepsisi ve sürekli açık çalışma
+- Gömülü logo, uygulama simgesi ve **yaaertu codeR** imzası
 
-The EXE is self-contained; users do not need to install .NET separately.
+## Kurulum
 
-## Notes
+1. Releases bölümünden `CYE Studio.exe` dosyasını indir.
+2. Windows x64 bilgisayarda çalıştır.
+3. Pencereyi X ile kapatırsan uygulama sistem tepsisinde açık kalır.
+4. Tam çıkış ve Windows renklerini geri yüklemek için uygulamadaki **Kapat ve geri yükle** düğmesini kullan.
 
-Some apps draw their own themes and may ignore Windows system selection colors. CYE uses Windows APIs for supported apps and separate transparent overlays for desktop/taskbar effects. The visualizer reads only the local system output peak level; it does not record, save, or upload audio.
+EXE kendi çalışma ortamını içerir; ayrıca .NET kurulumu gerekmez.
 
-This public package does not include source code. Source is private to the owner.
+## Bilinen sınırlar ve gizlilik
 
-## Verification
+Kendi temasını çizen bazı uygulamalar Windows sistem seçim rengini kullanmayabilir. CYE desteklenen alanlarda Windows API'lerini, masaüstü ve görev çubuğunda tıklamayı engellemeyen saydam katmanları kullanır. Görselleştirici yalnızca yerel çıkış ses seviyesini okur; ses kaydetmez, saklamaz veya yüklemez.
 
-Self-test result for this release: 7 passed checks, including RGB apply/restore, crash recovery, and invalid recovery rejection.
+Halka açık pakette kaynak kod bulunmaz. Kaynak yalnızca proje sahibinde kalır.
 
-SHA256 for `CYE Studio.exe`:
+## Doğrulama
+
+Bu sürümün kendi kendine testi 7/7 geçti. RGB uygulama/geri yükleme, çökme kurtarması ve geçersiz kurtarma verisinin reddi doğrulandı.
+
+`CYE Studio.exe` SHA256:
 
 ```text
-4D2FA374CA5C64EC6301A0F6BE2F38D1D39BC4BB730613AAE26187EF40659E72
+1ECAEBEAF7BBF895BF12B1AC28D5550FD3987BF1777B76EF0C73AF0333DB3C33
 ```
 
-Copyright © 2026 yaaertu codeR. All rights reserved.
+Telif hakkı © 2026 yaaertu codeR. Tüm hakları saklıdır.

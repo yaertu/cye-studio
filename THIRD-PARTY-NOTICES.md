@@ -1,6 +1,6 @@
 # Third-party notices
 
-CYE Studio 4.3.0 includes third-party runtime components bundled into a self-contained Windows executable.
+CYE Studio 4.5.0 includes third-party runtime components bundled into a self-contained Windows executable.
 
 ## Microsoft .NET
 
