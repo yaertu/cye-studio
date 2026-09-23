@@ -1,42 +1,42 @@
-# CYE Studio 5.0.0
+# CYE Studio 5.1.0
 
 Geliştirici: **yaaertu codeR**
 
-CYE Studio, Windows x64 için yerel ve çevrimdışı çalışan masaüstü görünüm motorudur. Sistem seçim rengini, görev çubuğu animasyonunu, Dosya Gezgini arka aurasını ve masaüstü widgetlarını tek uygulamada birleştirir.
+CYE Studio, Windows x64 için yerel ve çevrimdışı çalışan masaüstü efekt ve görünüm motorudur. Duvar kâğıdını değiştirmeden görev çubuğu animasyonlarını, pencere auralarını, masaüstü widgetlarını, fare efektlerini ve Windows vurgu rengini yönetir.
 
-## 5.0 içeriği
+## 5.1 içeriği
 
-- **27 görev çubuğu sahnesi:** Inferno EQ, Matrix Rain, Laser Rail, DNA Helix, Sakura Drift, Bass Cannon, Gamer Combo ve daha fazlası
-- **18 klasör aurası:** Frost Glass, Matrix Frame, Neon Corners, Quantum Portal, Gamer Bracket ve diğer bağımsız tasarımlar
-- **19 masaüstü widgetı:** gamer saat, mekanik flip saat, split flap, binary saat, Matrix kodu, retro LCD, komuta paneli ve ses spektrumu
-- **16 widget fontu:** modern, gamer, sci-fi, monospaced, retro ve klasik seçenekler
-- **20 Windows görünüm paketi:** Her paket RGB rengini, görev çubuğu sahnesini, klasör aurasını, widgetı, fontu ve hareket profilini birlikte uygular
+- **27 görev çubuğu sahnesi**, **18 pencere aurası**, **19 masaüstü widgetı**, **16 widget fontu** ve **20 Windows görünüm profili**
+- Gerçek uygulama ikonları, hover büyütmesi ve ses tepkili hareket kullanan kompakt sistem dock’u
+- AppBar tabanlı modern üst bar; uygulama pencereleri ve masaüstü ikonları barın altında kalmaz
+- Widget için akıcı serbest sürükleme, ayrı kart/yazı ölçeği, renk ve gamer font seçenekleri
+- Okunabilir koyu sağ tık menüsü; kart boyutu, yazı boyutu, font, animasyon, konum sıfırlama ve gizleme
 
-Efektler yerel ses seviyesine tepki verebilir. X düğmesi uygulamayı kapatmaz; CYE sistem tepsisinde sürekli açık kalır. Widgeta sağ tıklayarak stüdyoyu açabilir veya widgetı gizleyebilirsin.
+Video modu YouTube, Netflix, Twitch, VLC ve benzeri medya oynatımını algılar. Video oynarken üst bar, dock, widget ve overlay efektleri arkaya çekilir; başka bir uygulamaya geçildiğinde medya sesi devam ediyorsa gizli kalır.
 
 ## Kurulum
 
 1. Releases bölümünden `CYE Studio.exe` dosyasını indir.
 2. Windows x64 bilgisayarda çalıştır.
-3. Windows görünüm paketlerinden birini seç veya her ayrıntıyı ayrı ayrı düzenle.
-4. Tam çıkış ve sistem renklerini geri yüklemek için **Kapat ve geri yükle** düğmesini kullan.
+3. Bir görünüm profili seç veya efektleri ayrı ayrı düzenle.
+4. X düğmesi uygulamayı tepsiye indirir. Tam çıkış ve Windows renklerini geri yüklemek için **Kapat ve geri yükle** düğmesini kullan.
 
 EXE kendi .NET 8 çalışma ortamını içerir; ek kurulum gerekmez.
 
 ## Performans ve gizlilik
 
-Animasyonlar 30 FPS sınırı, düşük öncelikli zamanlayıcı ve tam ekran otomatik gizleme kullanır. 5.0 yayın doğrulamasında aktif efektlerle ölçülen işlemci kullanımı tüm çekirdekler toplamında yaklaşık `%1,95`, özel bellek kullanımı yaklaşık `156,5 MB` oldu. Sonuçlar donanıma ve açık efektlere göre değişebilir.
+Aura ve shell katmanları ayrı kare hızlarında sınırlandırılır. Tema geçişleri birleştirilip arka planda uygulanır; overlay pencereleri yalnızca durum değiştiğinde gizlenir. Ses tepkisi sadece yerel Windows çıkış seviye göstergesini okur; ses kaydetmez, saklamaz veya yüklemez.
 
-Ses tepkisi yalnızca yerel Windows çıkış seviye göstergesini okur; ses kaydetmez, saklamaz veya yüklemez. Halka açık pakette kaynak kod bulunmaz.
+Halka açık pakette kaynak kod, ekran görüntüsü veya video bulunmaz.
 
 ## Doğrulama
 
-Yayın EXE’si kendi kendine testte **7/7** geçti. RGB uygulama/geri yükleme, çökme kurtarması, dış değişiklikleri koruma ve bozuk kurtarma verisinin reddi doğrulandı.
+Yayın derlemesi 0 uyarı ve 0 hata ile üretildi. Dahili doğrulama **8/8** geçti.
 
 `CYE Studio.exe` SHA256:
 
 ```text
-FAA4692A4C4F7EEA25D207914D3D301DBD3E508811399DB70AE4C7CCA766D601
+5C15839BE9180EB656E7998213DE501C24C44483BA6EFF102603F75492C2D00F
 ```
 
 Telif hakkı © 2026 **yaaertu codeR**. Tüm hakları saklıdır.
